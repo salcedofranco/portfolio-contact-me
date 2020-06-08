@@ -3,6 +3,7 @@ const sendMail = require('./mail');
 const log = console.log;
 const app = express();
 const path = require('path');
+require('dotenv').config()
 
 const PORT = 3000;
 
